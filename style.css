@@ -1,0 +1,52 @@
+body {
+  font-family: "Shippori Mincho", serif;
+  color: white;
+}
+.title {
+  width: 1000px;
+  height: 600px;
+  background-image: url(./img-4/firstview.png);
+  background-size: cover;
+  position: relative;
+}
+.head {
+  display: flex;
+  align-items: center;
+}
+.head__list {
+  display: flex;
+  align-items: center;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.title__1 {
+  font-size: 40px;
+}
+.title__2 {
+  display: flex;
+}
+.photo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+.photo__1 {
+  grid-column: 1/2;
+  background-image: url(./img-4/topics-img1.png);
+}
+.photo__1__1,
+.photo__2__1,
+.photo__3__1 {
+  font-size: 26px;
+}
+.photo__2 {
+  grid-column: 2/3;
+  background-image: url(./img-4/topics-img2.png);
+}
+.photo__3 {
+  grid-column: 3/4;
+  background-image: url(./img-4/topics-img3.png);
+}
